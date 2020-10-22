@@ -1,0 +1,46 @@
+.line{
+    height: 3px ;
+    width: 150px ;
+    background-color: black ;
+    margin: auto ;
+}
+body{
+    text-align: center ;
+}
+#tim{
+    border: 4px solid white ;
+    height: 300px ;
+}
+#welcome{
+    background: linear-gradient(cyan,grey) ;
+    height: 720px ;
+    width: 100% ;
+    display: table ;
+}
+#welcome-inner{
+    display: table-cell ;
+    vertical-align: middle ;
+}
+h1{
+    font-size: 40px ;
+    line-height: 1.2 ;
+    font-weight: 300 ;
+}
+h2{
+    font-size: 30px ;
+    line-height: 1.2 ;
+    font-weight: 300 ;
+    font-family: monospace ;
+}
+#bio{
+    padding: 50px ;
+    text-align: center ;
+    font-size: 40px ;
+}
+p{
+    max-width: 450px ;
+    margin: 25px auto ;
+    font-size: 17px ;
+    line-height: 1.3 ;
+    text-align: justify ;
+}
